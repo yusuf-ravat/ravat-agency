@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F0F9FF" />
+  <rect x="100" y="100" width="600" height="400" rx="8" fill="#0EA5E9" fill-opacity="0.2" />
+  <path
+    d="M200 200H600M200 300H600M200 400H600"
+    stroke="#0EA5E9"
+    stroke-width="4"
+  />
+  <circle cx="150" cy="200" r="8" fill="#0EA5E9" />
+  <circle cx="150" cy="300" r="8" fill="#0EA5E9" />
+  <circle cx="150" cy="400" r="8" fill="#0EA5E9" />
+  <text x="400" y="500" font-family="Arial" font-size="24" fill="#0EA5E9" text-anchor="middle">
+    Semicon Referrals
+  </text>
+</svg> 
