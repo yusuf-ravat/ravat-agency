@@ -193,7 +193,7 @@ For inquiries, reach out to us:
 
 - **Email:** contact@ravatagency.com
 - **Website:** [ravatagency.com](https://ravatagency.com)
-- **GitHub:** [your-username](https://github.com/your-username)
+- **GitHub:** [yusuf-ravat](https://github.com/yusuf-ravat)
 - **LinkedIn:** Ravat Agency
 
 For project quotes or consultations, use the contact form on our website or email us directly.
