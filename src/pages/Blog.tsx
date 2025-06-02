@@ -2,8 +2,13 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { formatDate } from '../utils'
 import { posts } from '../data/posts'
+import { useEffect } from 'react'; // Import useEffect
 
 export default function Blog() {
+  useEffect(() => {
+    document.title = 'Blog | Ravat Agency';
+  }, []);
+
   return (
     <div className="relative py-24 sm:py-32 bg-gradient-to-br from-primary-50 via-white to-primary-100 min-h-screen">
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">

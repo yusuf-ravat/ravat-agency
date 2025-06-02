@@ -1,7 +1,12 @@
 import { motion } from 'framer-motion'
 import { projects } from '../data/projects'
+import { useEffect } from 'react';
 
 export default function Portfolio() {
+  useEffect(() => {
+    document.title = 'Portfolio | Ravat Agency';
+  }, []);
+
   return (
     <div className="relative py-24 sm:py-32 bg-gradient-to-br from-primary-50 via-white to-primary-100">
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">

@@ -1,9 +1,18 @@
 import { useParams, Link } from 'react-router-dom'
 import { posts } from '../data/posts'
+import { useEffect } from 'react'; // Import useEffect
 
 export default function BlogPost() {
   const { id } = useParams()
   const post = posts.find((p) => p.id === Number(id))
+
+  useEffect(() => {
+    if (post) {
+      document.title = `${post.title} | Ravat Agency Blog`;
+    } else {
+      document.title = 'Blog Post Not Found | Ravat Agency Blog';
+    }
+  }, [id, post]); // Re-run effect if id or post changes
 
   if (!post) return <div className="text-center py-20">Blog post not found.</div>
 

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion' // Add this import
+import { useEffect } from 'react';
 
 const services = [
   {
@@ -126,6 +127,10 @@ const services = [
 ]
 
 export default function Services() {
+  useEffect(() => {
+    document.title = 'Services | Ravat Agency';
+  }, []);
+
   return (
     <div className="relative py-24 sm:py-32 bg-gradient-to-br from-primary-50 via-white to-primary-100">
       {/* Optional: Add a decorative background image */}

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaLightbulb, FaHandsHelping, FaAward, FaRocket } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react'; // Import useEffect
 
 const values = [
   {
@@ -90,6 +91,10 @@ const teamMembers = [
 ];
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'About Us | Ravat Agency';
+  }, []);
+
   return (
     <div className="relative bg-gradient-to-br from-primary-50 via-white to-primary-100 min-h-screen">
       {/* Hero Section */}

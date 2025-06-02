@@ -8,6 +8,10 @@
 		const [currentTestimonial, setCurrentTestimonial] = useState(0);
 		const [isPaused, setIsPaused] = useState(false);
 
+		useEffect(() => {
+			document.title = 'Home | Ravat Agency';
+		}, []);
+
 		// Dummy data (replace with your own)
 		const services = [
 			{

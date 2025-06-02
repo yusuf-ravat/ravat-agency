@@ -1,10 +1,14 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { validateEmail, validatePhone } from '../utils'
 import type { ContactFormData } from '../types'
 import emailjs from '@emailjs/browser'
 
 export default function Contact() {
+  useEffect(() => {
+    document.title = 'Contact Us | Ravat Agency';
+  }, []);
+
   const [formData, setFormData] = useState<ContactFormData>({
     name: '',
     email: '',
