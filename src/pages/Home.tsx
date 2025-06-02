@@ -73,7 +73,12 @@
 				<section className="relative overflow-hidden bg-gradient-to-br from-primary-50 via-white to-white">
 					<div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-12">
 						{/* Left */}
-						<div className="flex-1 text-center lg:text-left">
+						<motion.div
+							initial={{ opacity: 0, y: 50 }}
+							animate={{ opacity: 1, y: 0 }}
+							transition={{ duration: 0.8 }}
+							className="flex-1 text-center lg:text-left"
+						>
 							<h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight">
 								Build. Launch. <span className="text-primary-600">Grow.</span>
 							</h1>
@@ -95,15 +100,20 @@
 									View Portfolio
 								</Link>
 							</div>
-						</div>
+						</motion.div>
 						{/* Right */}
-						<div className="flex-1 flex justify-center">
+						<motion.div
+							initial={{ opacity: 0, x: 50 }}
+							animate={{ opacity: 1, x: 0 }}
+							transition={{ duration: 0.8, delay: 0.2 }}
+							className="flex-1 flex justify-center"
+						>
 							<img
 								src="/hero-image.svg"
 								alt="Digital Innovation"
 								className="w-full max-w-md rounded-2xl shadow-xl"
 							/>
-						</div>
+						</motion.div>
 					</div>
 				</section>
 

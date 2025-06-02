@@ -108,27 +108,14 @@ export default function Contact() {
                 <dl className="mt-4 space-y-4 text-base leading-7 text-gray-600">
                   <div className="flex gap-x-4">
                     <dt className="flex-none">
-                      <span className="sr-only">Address</span>
-                      <svg className="h-7 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
-                      </svg>
-                    </dt>
-                    <dd>
-                      545 Mavis Island
-                      <br />
-                      Chicago, IL 99191
-                    </dd>
-                  </div>
-                  <div className="flex gap-x-4">
-                    <dt className="flex-none">
                       <span className="sr-only">Telephone</span>
                       <svg className="h-7 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                       </svg>
                     </dt>
                     <dd>
-                      <a className="hover:text-gray-900" href="tel:+1 (555) 234-5678">
-                        +1 (555) 234-5678
+                      <a className="hover:text-gray-900" href="tel:+91 9714405312">
+                      +91 9714405312
                       </a>
                     </dd>
                   </div>
@@ -141,9 +128,40 @@ export default function Contact() {
                     </dt>
                     <dd>
                         <a className="hover:text-gray-900" href="mailto:ravatagency@gmail.com">
-    ravatagency@gmail.com
-  </a>
+                        ravatagency@gmail.com</a>
                     </dd>
+                  </div>
+                </dl>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Find Us</h3>
+                <dl className="mt-4 space-y-4 text-base leading-7 text-gray-600">
+                  <div className="flex gap-x-4">
+                    <dt className="flex-none">
+                      <span className="sr-only">Address</span>
+                      <svg className="h-7 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
+                      </svg>
+                    </dt>
+                    <dd>
+                      545 Navsari
+                      <br />
+                      Gujarat, India
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-base font-semibold leading-7 text-gray-900">Business Hours</h3>
+                <dl className="mt-4 space-y-4 text-base leading-7 text-gray-600">
+                  <div>
+                    <dd>Monday - Friday: 9:00 AM - 5:00 PM</dd>
+                  </div>
+                  <div>
+                    <dd>Saturday: 10:00 AM - 2:00 PM</dd>
+                  </div>
+                  <div>
+                    <dd>Sunday: Closed</dd>
                   </div>
                 </dl>
               </div>

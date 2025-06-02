@@ -8,11 +8,13 @@ import About from './pages/About'
 import Blog from './pages/Blog'
 import BlogPost from './pages/BlogPost'
 import Contact from './pages/Contact'
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
+      <ScrollToTop />
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
