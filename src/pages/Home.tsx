@@ -37,7 +37,7 @@
 
 		const testimonials = [
 			{
-				content: "RavatTechSolution's innovative approach transformed our business.",
+				content: "Ravat Tech Solution's innovative approach transformed our business.",
 				author: { name: 'Alex Thompson', role: 'Innovation Director', image: 'user.png' },
 			},
 			{

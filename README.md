@@ -6,7 +6,7 @@ Welcome to the official repository for the Ravat Agency website, a professional 
 
 ## Table of Contents
 
-- [About RavatTechSolution](#about-ravat-tech-solution)
+- [About Ravat Tech Solution](#about-ravat-tech-solution)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
@@ -18,7 +18,7 @@ Welcome to the official repository for the Ravat Agency website, a professional 
 
 ---
 
-## About RavatTechSolution
+## About Ravat Tech Solution
 
 Ravat Tech Solution is a tech-focused agency dedicated to empowering businesses with innovative digital solutions.
 
@@ -192,12 +192,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For inquiries, reach out to us:
 
 - **Email:** contact@ravatagency.com
-- **Website:** [ravattechsolution.com](https://ravattechsolution.com)
+- **Website:** [ravat.in](https://ravat.in)
 - **GitHub:** [yusuf-ravat](https://github.com/yusuf-ravat)
-- **LinkedIn:** RavatTechSolution
+- **LinkedIn:** Ravat Tech Solution
 
 For project quotes or consultations, use the contact form on our website or email us directly.
 
 ---
 
-Built with 💻 by RavatTechSolution, inspired by rural innovation and global tech excellence.
+Built with 💻 by Ravat Tech Solution, inspired by rural innovation and global tech excellence.

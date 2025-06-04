@@ -129,7 +129,7 @@ export default function Footer() {
         </div>
         <div className="mt-6 border-t border-gray-800 pt-4">
           <p className="text-xs leading-5 text-gray-400">
-&copy; {new Date().getFullYear()} RavatTechSolution. All rights reserved.
+&copy; {new Date().getFullYear()} Ravat Tech Solution. All rights reserved.
           </p>
         </div>
       </div>
