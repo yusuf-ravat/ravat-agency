@@ -113,7 +113,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-<a href="mailto:ravattechsolution@gmail.com" className="text-sm leading-6 text-gray-300 hover:text-primary-400">
+<a href="mailto:ravatagency@gmail.com" className="text-sm leading-6 text-gray-300 hover:text-primary-400">
                       ravatagency@gmail.com
                     </a>
                   </li>
