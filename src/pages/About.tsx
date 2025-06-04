@@ -123,7 +123,7 @@ export default function About() {
             className="mt-6 text-lg leading-8 text-gray-700"
           >
             <p>
-              Founded in 2025 by a passionate full-stack developer from a rural village in Gujarat, RavatTechSolution bridges the gap between innovative technology and real-world impact. Inspired by a vision to empower businesses—whether startups chasing big dreams or local entrepreneurs transforming rural communities—we deliver cutting-edge digital solutions that drive growth. Our founder’s journey, from mastering .NET Core, AngularJS, and MS SQL to building tools like Duplicate Image Finder and EventSnap Organizer, fuels our commitment to creating scalable, user-focused applications.
+              Founded in 2025 by a passionate full-stack developer from a rural village in Gujarat, Ravat Tech Solution bridges the gap between innovative technology and real-world impact. Inspired by a vision to empower businesses—whether startups chasing big dreams or local entrepreneurs transforming rural communities—we deliver cutting-edge digital solutions that drive growth. Our founder’s journey, from mastering .NET Core, AngularJS, and MS SQL to building tools like Duplicate Image Finder and EventSnap Organizer, fuels our commitment to creating scalable, user-focused applications.
             </p>
             <p className="mt-4">
             At RavatTechSolution, we believe technology should be accessible and impactful.
@@ -256,7 +256,7 @@ export default function About() {
           transition={{ duration: 0.7 }}
           className="mt-6 text-lg leading-8 text-gray-600"
         >
-          or a rural business seeking digital solutions, RavatTechSolution is your partner for success.{' '}
+          or a rural business seeking digital solutions, Ravat Tech Solution is your partner for success.{' '}
           <Link to="/portfolio" className="text-primary-600 hover:underline">
             Explore our portfolio
           </Link>{' '}

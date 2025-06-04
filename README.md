@@ -1,4 +1,4 @@
-# RavatTechSolution Website
+# Ravat Tech Solution Website
 
 Welcome to the official repository for the Ravat Agency website, a professional platform showcasing our tech-driven services for startups, SMEs, and rural businesses. Built with modern web technologies, this website highlights our expertise in MVP development, web/mobile app development, UI/UX design, and agri-tech solutions, delivering scalable and user-focused digital solutions.
 
@@ -20,7 +20,7 @@ Welcome to the official repository for the Ravat Agency website, a professional 
 
 ## About RavatTechSolution
 
-RavatTechSolution is a tech-focused agency dedicated to empowering businesses with innovative digital solutions.
+Ravat Tech Solution is a tech-focused agency dedicated to empowering businesses with innovative digital solutions.
 
 - **MVP Development:** Rapid prototyping to launch startups.
 - **Web & Mobile Apps:** Custom, scalable applications using React, .NET Core, and more.
@@ -64,7 +64,7 @@ Our mission is to bridge ideas with technology, delivering impactful solutions f
 
 ## Installation
 
-Follow these steps to set up the RavatTechSolution website locally.
+Follow these steps to set up the Ravat Tech Solution website locally.
 
 ### Prerequisites
 
@@ -169,7 +169,7 @@ ravat-agency/
 
 ## Contributing
 
-We welcome contributions to improve the RavatTechSolution website!
+We welcome contributions to improve the Ravat Tech Solution website!
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).

@@ -22,7 +22,7 @@ const navigation = {
   social: [
     {
       name: 'Instagram',
-href: 'https://www.instagram.com/ravattechsolution/', // Make sure this is your actual Instagram URL!
+      href: 'https://www.instagram.com/ravattechsolution/', // Make sure this is your actual Instagram URL!
       icon: (props: React.SVGProps<SVGSVGElement>) => <FaInstagram {...props} />
     },
     {
