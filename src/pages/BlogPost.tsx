@@ -8,9 +8,9 @@ export default function BlogPost() {
 
   useEffect(() => {
     if (post) {
-      document.title = `${post.title} | Ravat Agency Blog`;
+      document.title = `${post.title} | RavatTechSolution Blog`;
     } else {
-      document.title = 'Blog Post Not Found | Ravat Agency Blog';
+      document.title = 'Blog Post Not Found | RavatTechSolution Blog';
     }
   }, [id, post]); // Re-run effect if id or post changes
 

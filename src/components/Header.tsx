@@ -46,8 +46,8 @@ export default function Header() {
           transition={{ duration: 0.2 }}
         >
           <Link to="/" className="p-1">
-            <span className="sr-only">Ravat Agency</span>
-            <img className="h-11 w-auto sm:h-22" src="/logo.png" alt="Ravat Agency" />
+            <span className="sr-only">RavatTechSolution</span>
+            <img className="h-11 w-auto sm:h-22" src="/logo.png" alt="RavatTechSolution" />
           </Link>
         </motion.div>
 
@@ -133,8 +133,8 @@ export default function Header() {
                   className="rounded-lg"
                 >
                   <Link to="/" className="p-1" onClick={() => setIsMobileMenuOpen(false)}>
-                    <span className="sr-only">Ravat Agency</span>
-                    <img className="h-11 w-auto sm:h-11" src="/logo.png" alt="Ravat Agency" />
+                    <span className="sr-only">RavatTechSolution</span>
+                    <img className="h-11 w-auto sm:h-11" src="/logo.png" alt="RavatTechSolution" />
                   </Link>
                 </motion.div>
                 <motion.button

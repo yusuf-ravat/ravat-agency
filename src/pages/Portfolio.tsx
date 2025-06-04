@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 export default function Portfolio() {
   useEffect(() => {
-    document.title = 'Portfolio | Ravat Agency';
+    document.title = 'Portfolio | RavatTechSolution';
   }, []);
 
   return (

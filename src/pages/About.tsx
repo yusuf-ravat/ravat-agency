@@ -62,7 +62,7 @@ const teamMembers = [
     name: 'Yusuf Ravat',
     role: 'Founder & Full Stack Developer',
     image: 'user.png',
-    bio: 'Yusuf is the visionary behind Ravat Agency, with a deep passion for crafting robust and scalable web applications using .NET Core, AngularJS, and MS SQL.',
+    bio: 'Yusuf is the visionary behind RavatTechSolution, with a deep passion for crafting robust and scalable web applications using .NET Core, AngularJS, and MS SQL.',
   },
   {
     name: 'Vishal Patel',
@@ -92,7 +92,7 @@ const teamMembers = [
 
 export default function About() {
   useEffect(() => {
-    document.title = 'About Us | Ravat Agency';
+    document.title = 'About Us | RavatTechSolution';
   }, []);
 
   return (
@@ -106,7 +106,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="text-4xl font-extrabold tracking-tight text-primary-700 sm:text-5xl text-center"
           >
-            About Ravat Agency
+            About RavatTechSolution
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -123,10 +123,10 @@ export default function About() {
             className="mt-6 text-lg leading-8 text-gray-700"
           >
             <p>
-              Founded in 2025 by a passionate full-stack developer from a rural village in Gujarat, Ravat Agency bridges the gap between innovative technology and real-world impact. Inspired by a vision to empower businesses—whether startups chasing big dreams or local entrepreneurs transforming rural communities—we deliver cutting-edge digital solutions that drive growth. Our founder’s journey, from mastering .NET Core, AngularJS, and MS SQL to building tools like Duplicate Image Finder and EventSnap Organizer, fuels our commitment to creating scalable, user-focused applications.
+              Founded in 2025 by a passionate full-stack developer from a rural village in Gujarat, RavatTechSolution bridges the gap between innovative technology and real-world impact. Inspired by a vision to empower businesses—whether startups chasing big dreams or local entrepreneurs transforming rural communities—we deliver cutting-edge digital solutions that drive growth. Our founder’s journey, from mastering .NET Core, AngularJS, and MS SQL to building tools like Duplicate Image Finder and EventSnap Organizer, fuels our commitment to creating scalable, user-focused applications.
             </p>
             <p className="mt-4">
-              At Ravat Agency, we believe technology should be accessible and impactful. Our roots in rural India shape our approach, ensuring we craft solutions that resonate with both global markets and local needs. From MVPs launched in weeks to custom web and mobile apps, we’re here to turn your vision into reality.
+            At RavatTechSolution, we believe technology should be accessible and impactful.
             </p>
             <p className="mt-4 font-semibold">
               Our Mission: To empower startups, SMEs, and rural businesses with affordable, scalable, and innovative tech solutions that drive success and create lasting impact.
@@ -206,7 +206,7 @@ export default function About() {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-base font-semibold leading-7 text-primary-600">Our Team</h2>
           <p className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl">
-            Meet the Brilliant Minds at Ravat Agency
+            Meet the Brilliant Minds at RavatTechSolution
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Our diverse team of experts is the heart of our innovation, bringing together a wealth of experience and passion to deliver exceptional results.
@@ -256,7 +256,7 @@ export default function About() {
           transition={{ duration: 0.7 }}
           className="mt-6 text-lg leading-8 text-gray-600"
         >
-          Ready to transform your idea into reality? Whether you’re a startup building an MVP, an SME needing a custom app, or a rural business seeking digital solutions, Ravat Agency is your partner for success.{' '}
+          or a rural business seeking digital solutions, RavatTechSolution is your partner for success.{' '}
           <Link to="/portfolio" className="text-primary-600 hover:underline">
             Explore our portfolio
           </Link>{' '}

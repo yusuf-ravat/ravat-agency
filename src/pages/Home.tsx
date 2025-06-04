@@ -9,7 +9,7 @@
 		const [isPaused, setIsPaused] = useState(false);
 
 		useEffect(() => {
-			document.title = 'Home | Ravat Agency';
+			document.title = 'Home | RavatTechSolution';
 		}, []);
 
 		// Dummy data (replace with your own)
@@ -37,7 +37,7 @@
 
 		const testimonials = [
 			{
-				content: "Ravat Agency's innovative approach transformed our business.",
+				content: "RavatTechSolution's innovative approach transformed our business.",
 				author: { name: 'Alex Thompson', role: 'Innovation Director', image: 'user.png' },
 			},
 			{

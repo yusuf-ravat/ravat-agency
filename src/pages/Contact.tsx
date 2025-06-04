@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser'
 
 export default function Contact() {
   useEffect(() => {
-    document.title = 'Contact Us | Ravat Agency';
+    document.title = 'Contact Us | RavatTechSolution';
   }, []);
 
   const [formData, setFormData] = useState<ContactFormData>({

@@ -6,7 +6,7 @@ import { useEffect } from 'react'; // Import useEffect
 
 export default function Blog() {
   useEffect(() => {
-    document.title = 'Blog | Ravat Agency';
+    document.title = 'Blog | RavatTechSolution';
   }, []);
 
   return (

@@ -1,4 +1,4 @@
-# Ravat Agency Website
+# RavatTechSolution Website
 
 Welcome to the official repository for the Ravat Agency website, a professional platform showcasing our tech-driven services for startups, SMEs, and rural businesses. Built with modern web technologies, this website highlights our expertise in MVP development, web/mobile app development, UI/UX design, and agri-tech solutions, delivering scalable and user-focused digital solutions.
 
@@ -6,7 +6,7 @@ Welcome to the official repository for the Ravat Agency website, a professional 
 
 ## Table of Contents
 
-- [About Ravat Agency](#about-ravat-agency)
+- [About RavatTechSolution](#about-ravat-tech-solution)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
@@ -18,9 +18,9 @@ Welcome to the official repository for the Ravat Agency website, a professional 
 
 ---
 
-## About Ravat Agency
+## About RavatTechSolution
 
-Ravat Agency is a tech-focused agency dedicated to empowering businesses with innovative digital solutions. Rooted in a passion for technology and inspired by rural innovation, we specialize in:
+RavatTechSolution is a tech-focused agency dedicated to empowering businesses with innovative digital solutions.
 
 - **MVP Development:** Rapid prototyping to launch startups.
 - **Web & Mobile Apps:** Custom, scalable applications using React, .NET Core, and more.
@@ -64,7 +64,7 @@ Our mission is to bridge ideas with technology, delivering impactful solutions f
 
 ## Installation
 
-Follow these steps to set up the Ravat Agency website locally.
+Follow these steps to set up the RavatTechSolution website locally.
 
 ### Prerequisites
 
@@ -169,7 +169,7 @@ ravat-agency/
 
 ## Contributing
 
-We welcome contributions to improve the Ravat Agency website! To contribute:
+We welcome contributions to improve the RavatTechSolution website!
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
@@ -192,12 +192,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For inquiries, reach out to us:
 
 - **Email:** contact@ravatagency.com
-- **Website:** [ravatagency.com](https://ravatagency.com)
+- **Website:** [ravattechsolution.com](https://ravattechsolution.com)
 - **GitHub:** [yusuf-ravat](https://github.com/yusuf-ravat)
-- **LinkedIn:** Ravat Agency
+- **LinkedIn:** RavatTechSolution
 
 For project quotes or consultations, use the contact form on our website or email us directly.
 
 ---
 
-Built with 💻 by Ravat Agency, inspired by rural innovation and global tech excellence.
+Built with 💻 by RavatTechSolution, inspired by rural innovation and global tech excellence.

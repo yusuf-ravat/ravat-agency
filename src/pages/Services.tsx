@@ -128,7 +128,7 @@ const services = [
 
 export default function Services() {
   useEffect(() => {
-    document.title = 'Services | Ravat Agency';
+    document.title = 'Services | RavatTechSolution';
   }, []);
 
   return (

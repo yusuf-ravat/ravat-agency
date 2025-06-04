@@ -22,7 +22,7 @@ const navigation = {
   social: [
     {
       name: 'Instagram',
-      href: 'https://www.instagram.com/ravatagency/', // Make sure this is your actual Instagram URL!
+href: 'https://www.instagram.com/ravattechsolution/', // Make sure this is your actual Instagram URL!
       icon: (props: React.SVGProps<SVGSVGElement>) => <FaInstagram {...props} />
     },
     {
@@ -46,7 +46,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <img className="h-10 w-auto" src="/logo.png" alt="Ravat Agency" />
+            <img className="h-12 w-auto sm:h-22" src="/logo.png" alt="RavatTechSolution" />
             <p className="text-sm leading-6 text-gray-300">
               Empowering businesses with innovative technology solutions. We build scalable, secure, and
               user-friendly applications that drive growth and success.
@@ -76,7 +76,7 @@ export default function Footer() {
                       </Link>
                     </li>
                   ))}
-                </ul>
+                </ul> 
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">Services</h3>
@@ -113,7 +113,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:ravatagency@gmail.com" className="text-sm leading-6 text-gray-300 hover:text-primary-400">
+<a href="mailto:ravattechsolution@gmail.com" className="text-sm leading-6 text-gray-300 hover:text-primary-400">
                       ravatagency@gmail.com
                     </a>
                   </li>
@@ -129,7 +129,7 @@ export default function Footer() {
         </div>
         <div className="mt-6 border-t border-gray-800 pt-4">
           <p className="text-xs leading-5 text-gray-400">
-            &copy; {new Date().getFullYear()} Ravat Agency. All rights reserved.
+&copy; {new Date().getFullYear()} RavatTechSolution. All rights reserved.
           </p>
         </div>
       </div>
